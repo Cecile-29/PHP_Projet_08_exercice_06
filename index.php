@@ -16,9 +16,9 @@
         <div class="row border border-primary rounded p-3 m-4 text-secondary justify-content-center">
         <?php 
             $nombreDeJoursFevrier = cal_days_in_month(CAL_GREGORIAN, 2, 2020); // anné bissextile
-            echo "Il y a eu {$nombreDeJoursFevrier} jours Février 2020";
+            echo "Il y a eu {$nombreDeJoursFevrier} jours en Février 2020";
             $nombreDeJoursFevrier = cal_days_in_month(CAL_GREGORIAN, 2, 2021); 
-            echo ", et il y a eu {$nombreDeJoursFevrier} jours Février 2021";
+            echo ", et il y a eu {$nombreDeJoursFevrier} jours en Février 2021";
         ?>
         </div>
     </div>
